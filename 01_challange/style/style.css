@@ -1,0 +1,49 @@
+*,*::after,*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--bg_color : white;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	background-color: #81528e;
+	display: flex;
+}
+.user_card{
+	width: 30%;
+	margin: auto;
+	background-color: var(--bg_color);
+	display: flex;
+	justify-content: center;
+	gap:5rem;
+	padding: 1rem
+}
+.profile_img img{
+	width: 80px;
+height: 80px;
+border: 5px solid;
+border-radius: 50%;
+}
+.profile_details .user_name span{
+	color: darkgray;
+	line-height: 2
+}
+.user_info{
+	letter-spacing: 1px;
+line-height: 1;
+text-align: -moz-left;
+padding: 1rem 0;
+}
+.show_more{
+	padding: .67rem .8rem;
+	border: 0;
+	background-color: white;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px
+}
+.show_more:hover{
+background-color: lightgray;
+}
